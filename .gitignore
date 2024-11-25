@@ -9,5 +9,19 @@ env/
 *.pyc
 __pycache__
 local_settings.py
+views.py_copy
 db.sqlite3
 media
+*.pyc
+
+# Backup files
+*_copy
+*.bak
+*.backup
+
+# Model files
+echo "*.h5" >> .gitignore
+echo "prediction/models/*.h5" >> .gitignore
+
+tests/
+docs/
