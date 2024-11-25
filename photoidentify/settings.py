@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -25,7 +26,13 @@ SECRET_KEY = 'django-insecure-p&2(90^@h@%-d%f4=spn72vzq--n15zep7jzf37#x6jx1%ru0h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'photosorting5884.herokuapp.com']
+# Heroku用のホスト設定
+IS_HEROKU_APP = "DYNO" in os.environ and not "CI" in os.environ
+
+if IS_HEROKU_APP:
+    ALLOWED_HOSTS = ["photosorting5884-98253ec049aa.herokuapp.com", "*"]
+else:
+    ALLOWED_HOSTS = ["localhost", "127.0.0.1", "[::1]"]
 
 
 CSRF_TRUSTED_ORIGINS = ['https://photosorting5884.herokuapp.com']
