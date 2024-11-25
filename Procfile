@@ -1,0 +1,1 @@
+web: gunicorn photosorting5884.wsgi --log-file -
