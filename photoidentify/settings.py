@@ -30,12 +30,17 @@ DEBUG = True
 IS_HEROKU_APP = "DYNO" in os.environ and not "CI" in os.environ
 
 if IS_HEROKU_APP:
-    ALLOWED_HOSTS = ["photosorting5884-98253ec049aa.herokuapp.com", "*"]
+    ALLOWED_HOSTS = ["photosorting5884-98253ec049aa.herokuapp.com"]
 else:
     ALLOWED_HOSTS = ["localhost", "127.0.0.1", "[::1]"]
 
 
-CSRF_TRUSTED_ORIGINS = ['https://photosorting5884.herokuapp.com']
+
+CSRF_TRUSTED_ORIGINS = [
+    f"https://{os.getenv('HEROKU_APP_NAME')}.herokuapp.com"
+]
+
+
 # Application definition
 
 INSTALLED_APPS = [
