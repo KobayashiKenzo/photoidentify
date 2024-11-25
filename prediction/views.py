@@ -10,8 +10,14 @@ from tensorflow.keras.preprocessing.image import img_to_array
 from io import BytesIO
 import os
 
+
 def download_model():
+    import os
     from google.cloud import storage
+
+    # モデル保存用ディレクトリの作成
+    os.makedirs('prediction/models', exist_ok=True)
+
     storage_client = storage.Client()
     bucket = storage_client.bucket('photosorting-app-dev-models')
     blob = bucket.blob('vgg16.h5')
