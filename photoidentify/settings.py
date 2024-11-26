@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-p&2(90^@h@%-d%f4=spn72vzq--n15zep7jzf37#x6jx1%ru0h
 DEBUG = True
 
 # Heroku用のホスト設定
-IS_HEROKU_APP = "DYNO" in os.environ and not "CI" in os.environ
+IS_HEROKU_APP = "DYNO" in os.environ
 
 if IS_HEROKU_APP:
     ALLOWED_HOSTS = ["photosorting5884-98253ec049aa.herokuapp.com"]
@@ -96,6 +96,8 @@ DATABASES = {
     }
 }
 
+# HTTPS強制
+SECURE_SSL_REDIRECT = IS_HEROKU_APP
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators

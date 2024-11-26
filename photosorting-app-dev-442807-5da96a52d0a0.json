@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "photosorting-app-dev-442807",
+  "private_key_id": "5da96a52d0a0009879dd824f1a77461fe53bfaca",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCvMIrmYrffnCJA\nnxZxQ7iQrgGo18LgYkxOvzzv6JlcQk7SsYu/of+73LXVUCySXcwyTtmncCBzVK+M\nwthGpAaedMKpQP2/uKjKPEzfkZnYEep1q+4ITze5HpPCPLkjEtaSlMT85UvdkhtN\nzjyFgT5lCa65Csyus4pwCjBgD0O9QcmQbDNJEDidSbWEQHwoy9nU/yUNfJ3H9z58\nptzaPs6s1xZRvYsxikmRhTYdTTAoYHIJykeDYifc0bRyQ0vJsdYK6ryk/9xXFfeu\nz29daKOTxVNRRg2BR+vX+MVqbE+IZAm9dhC6aPRlxep7eT68H1oeLEZXJ05Gy+Cj\nHFGS90NDAgMBAAECggEATyqZAh5HKDnGsrwRaLKpI1w2rMV/r2VMRWOfFmzebLYc\nJ5MK61i6F3tYAiK+WZAgd/Vw3vzI9UUmJW5hTJ7PzOhHlTOk13ALeoRAWuFRi7Yg\n5PcCVGfz7ug17lcBdKuNImUvFXdKzsA5LXJOoCf0+bSj68PJFgNVQmcgUDBltI5V\n1hk5+9IE9Cme5lTp3EnP9auysJtc1nyRN3oByKcuDYGv9K83eFjY819N2it9xfpZ\nQujS5V1oQnStdivf6+/qHrBzDWcZPONP5unMDdf9R7gpwZUGXgKweb23rLEUU1iF\nZIzLyL7xsCPDb8ln52iwLDNKRcqPGYUtZSbFCjI2fQKBgQD3sYxWCa06eLNTXyCv\nAap2vUWX3UgycP01+Zmd80iHYgg3rdxNrnojSetpfock/4Il/LnxO/r1jrOROlHd\nU7WboVx88CvY2roDSswvVjXTXukGCuL1G6E7gfnC/Wmm2uw/i16LY/q/AmTjeUbZ\nHye0MxujcbOFJQINrGk6RyuTvwKBgQC1EIwgv8g52/jKtp+q+xvV3Xq22sqvU7tN\nFL8ZwLDD1uWgK5HIPJJka55evrgk8xwIBQG66p5qATYlt83VjWQBM0dTePC9u248\nBcbuhGQUVDnq/B5iNGEPfs7EcaVQsJKPASJe42EsfQSVB/SImy1f/P0oMlSK3QWh\nESP5EnuhfQKBgQC+OiFpQm1D5sbyVLCpN0JPhvUXuN5lvtj4xwTvhZRCRUvCV0hG\ncKVkzLR7hK0OAR1XR00Ws9X9GOdXtc6BiHSFXdvGKD3EgdcyCBPglvknqFCWT24W\niG2/YgcLdcvaVW/zLXoi21oLsC8DdHSw83husIGdeQlCTDXTgoIeO+J/yQKBgQCj\nm0ojJWf08BEEirQHuVLTkocZxuUyO4SZB9ANoxGWRA3FBtl5h1H4L04w6kBWEt4X\nWP7ROMLfoiydNFJnTpU4iG9Au508s6nNzqKMT1BnFhwnepyxvAagC8MlulLYcFRd\np3a5KthZbLXBPCj3btA3VdAijCfcOg6mFWjd3JeduQKBgQCtiS7DEsVa1tz0eLKL\n6dBdqfLqiTo48Rg/NM1OwLYnk+oyw0W5RPTk8sio886/vlfOmf9YHTGjmwVLkqLi\n9eB0N/UuOq2gzPTuVzy3iDILq52zRl1HXrZoK17BeHK+eLSmRnLkIZqBAIhtnU3o\nAlB8rqxLvEgOKgW5OTofcZ9/Ag==\n-----END PRIVATE KEY-----\n",
+  "client_email": "cova-service-account@photosorting-app-dev-442807.iam.gserviceaccount.com",
+  "client_id": "115589436501999459235",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cova-service-account%40photosorting-app-dev-442807.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
