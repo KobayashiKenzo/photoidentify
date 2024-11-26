@@ -1,3 +1,12 @@
+from django.shortcuts import render
+from .forms import ImageUploadForm
+from django.conf import settings
+from tensorflow.keras.models import load_model
+from tensorflow.keras.applications.vgg16 import preprocess_input, decode_predictions
+from tensorflow.keras.preprocessing.image import load_img, img_to_array
+from io import BytesIO
+import os
+
 # グローバル変数としてモデルを保持
 model = None
 
